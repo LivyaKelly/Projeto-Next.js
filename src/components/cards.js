@@ -23,7 +23,7 @@ const personagens = [
       <div className={styles.grid}>
         {personagens.map(personagem => (
           <div key={personagem.id} className={styles.card}>
-            <img src={personagem.image} alt={personagem.name} className={styles.image} />
+            <Image src={personagem.image} alt={personagem.name} className={styles.image} />
             <h2 className={styles.name}>{personagem.name}</h2>
             <p className={styles.type}>{personagem.type}</p>
           </div>

@@ -73,7 +73,7 @@ const Section = () => (
         <div className={styles.sectionGrid}>
             {curiosities.map((curiosity) => (
                 <div key={curiosity.id} className={styles.card}>
-                    <img src={curiosity.image} alt={curiosity.title} className={styles.cardImage} />
+                    <Image src={curiosity.image} alt={curiosity.title} className={styles.cardImage} />
                     <div className={styles.cardContent}>
                         <h2>{curiosity.title}</h2>
                         <p>{curiosity.description}</p>

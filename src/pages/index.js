@@ -14,7 +14,7 @@ export default function Home() {
         <div style={{display: 'flex'}}>
           <div className="textos">
             <p>
-              "The Vampire Diaries" é uma série de televisão americana de drama
+              The Vampire Diaries é uma série de televisão americana de drama
               sobrenatural, baseada na série de livros homônima escrita por L.J.
               Smith. Lançada em 2009 e concluída em 2017, a série se passa na cidade
               fictícia de Mystic Falls, uma pequena localidade permeada por seres
@@ -25,7 +25,7 @@ export default function Home() {
               passado sangrento, Damon, inicialmente, segue um caminho de violência e
               manipulação, embora ambos compartilhem um profundo amor por Elena. <br/>
 
-              <br/>Ao longo das oito temporadas, "The Vampire Diaries" explora temas de amor,
+              <br/>Ao longo das oito temporadas, The Vampire Diaries explora temas de amor,
               perda, amizade e poder, à medida que os personagens principais enfrentam
               não apenas dilemas humanos, mas também ameaças sobrenaturais de
               vampiros, bruxas, lobisomens e outras entidades místicas. A série é
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           
           <div className="foto-principal">  
-            <img src="/images/capa.jpg" alt="The Vampires Diaries" width={450} height={550} />
+          <Image src="/images/capa.jpg" alt="The Vampires Diaries" width={450} height={550} />
           </div>
 
             </div>
